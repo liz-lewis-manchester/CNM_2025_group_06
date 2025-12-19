@@ -1,2 +1,7 @@
 # CNM_2025_group_06 
 # This file (README.md) is for explaining how to run the code and what it does - complete as the project progresses 
+# for test case 1 asks users to input L,T,U,k and either dx,dt or Nx,Nt with the code working out the reverse. Variables are created as needed and used to work out the variations of theta which is initally 250. A graph is then plotted showing the variation of pollutant concentration with distance
+# Test case 2 is nearly identical to test case one however the values are obtained through reading the file initial_conditions.csv. The results calculated are then plotted on a graph of pollutant concentration with distance
+# Test case 3 figures out how sensitive the model is to its paramters. The code has same start as past 2 cases working out change in conentration with distance but additionally creates variations to u dx and dt. It plots multiple different t from 5, 20, 60 seconds. It then creates 3 plots with varying u, dx and dt values at 5, 20 and 60 seconds which produce graphs showing the senstiivity to eahch parameter.
+# Test case 4 is the same as 1 and 2 but it changes the theta to add an exponential decay to the values. This is then plotted as pollutant concentration against distance downstream
+# Test case 5 adds a 10% random perturbation to the velocity to see how it changes results. It is then plotted as pollutant concentration against distance downstream 
